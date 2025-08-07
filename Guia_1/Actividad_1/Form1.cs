@@ -14,6 +14,7 @@ namespace Actividad_1
 
         private void btnDescribir_Click(object sender, EventArgs e)
         {
+            tbDescripcion.Clear();
             Ortoedro ortoedro = new Ortoedro(7, 7, 21);
             tbDescripcion.Text += $@"
             [ 

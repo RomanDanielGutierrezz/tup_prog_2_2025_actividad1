@@ -43,7 +43,7 @@ namespace Actividad_1
             }
             lateralesDescripcion += Laterales[3].Describir();
 
-            string descripcion = @$"{{  
+            string json = @$"{{  
             ""Tipo"": ""Ortoedro"", 
             ""Tapas"": 
                 [
@@ -57,7 +57,8 @@ namespace Actividad_1
             ""Area"": {CalcularArea().ToString("f2", culture)},
             ""Volumen"": {CalcularVolumen().ToString("f2", culture)}
             }}";
-            return descripcion;
+            
+            return json;
         }   
     }
 }
