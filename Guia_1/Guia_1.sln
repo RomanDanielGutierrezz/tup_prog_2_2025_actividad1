@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Actividad_1", "Actividad_1\Actividad_1.csproj", "{08AC2408-E9A3-44B3-A14E-4683202DCE28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Actividad_1\Ortoedro.cs = Actividad_1\Ortoedro.cs
+		Actividad_1\Rectangulo.cs = Actividad_1\Rectangulo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08AC2408-E9A3-44B3-A14E-4683202DCE28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AC2408-E9A3-44B3-A14E-4683202DCE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AC2408-E9A3-44B3-A14E-4683202DCE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AC2408-E9A3-44B3-A14E-4683202DCE28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4852E0AF-419A-4918-9E14-55587E7394CD}
+	EndGlobalSection
+EndGlobal
